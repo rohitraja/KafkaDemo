@@ -50,7 +50,7 @@ Step 3. Create Producer and topic
 
 
 Step 4. Create Consumer to listen on topic
-./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topiMyFirstTopic
+./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic MyFirstTopic
 
 Note: You can test you setup by sending some message to Kafka server on topic "MyFirstTopic" which should be received by consumer what we have created on 4th setp. 
 
