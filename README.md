@@ -37,8 +37,7 @@ Step: 4
 bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic MyFirstTopic
 
 ## Prerquists. If you are linux 
-You should have kafka on your local machine. You can follow the steps if you have kafka on you linux machine. 
-You can follow this instrunction to download and install kafka: https://tecadmin.net/install-apache-kafka-ubuntu/
+You should have kafka on your local machine. You can follow this instrunction to download and install kafka: https://tecadmin.net/install-apache-kafka-ubuntu/ or follow below step to start kafka if already installed just take care of the folder where it is installed. 
 
 Step 1. Start Zookeeper
 sudo ./bin/zookeeper-server-start.sh config/zookeeper.properties
