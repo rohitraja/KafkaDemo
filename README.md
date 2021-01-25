@@ -22,7 +22,7 @@ That is all you need to do after this commnad get successfully executed. You wil
 
 ### Prerequisits. If you are using Windows machine
 Download and extract the convinient Kafka version .tgz from the site https://kafka.apache.org/downloads. 
-Make sure you extract you kafka binary files up in the directory level (else Windows generally have issues executing long path commnads) like C:/kafka folder. Below are the steps to start Zookeeper, Kafka server, Producer and Consumer on windows machine. 
+Make sure you extract your kafka binary files up in the directory level (else Windows generally have issues executing long path commnads) like C:/kafka folder. Below are the steps to start Zookeeper, Kafka server, Producer and Consumer on windows machine. 
 
 Step: 1
 bin\windows\zookeeper-server-start.bat config\zookeeper.properties
@@ -38,6 +38,7 @@ bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic
 
 ## Prerquists. If you are linux 
 You should have kafka on your local machine. You can follow the steps if you have kafka on you linux machine. 
+You can follow this instrunction to download and install kafka: https://tecadmin.net/install-apache-kafka-ubuntu/
 
 Step 1. Start Zookeeper
 sudo ./bin/zookeeper-server-start.sh config/zookeeper.properties
